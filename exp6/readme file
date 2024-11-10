@@ -1,0 +1,38 @@
+Aim:
+1. DFT using inbuilt function and without using inbuilt function. Also plot magnitude and phase plot of DFT
+2. IDFT using inbuilt function and without using inbuilt function.
+Theory:
+Discrete Fourier Transform (DFT)
+The Discrete Fourier Transform (DFT) is a mathematical transformation used to analyze the frequency content of discrete signals. For a sequence x[n] of length N, the DFT is defined as:
+𝑿[𝒌] = Σ𝑵 𝒙[𝒏] ⋅ 𝒆
+−𝒋𝟐𝝅𝒏𝒌
+𝑵
+, 𝒌 = 𝟎, 𝟏, 𝟐, . . . , 𝑵 −1
+ X[k] is the DFT of the sequence x[n].
+−𝒋𝟐𝝅𝒏𝒌
+ The exponential factor represents 𝒆 𝑵 the complex sinusoidal basis functions.
+ The DFT maps the time-domain signal into the frequency domain.
+Inverse Discrete Fourier Transform (IDFT)Method:
+The Inverse Discrete Fourier Transform (IDFT) is used to convert a frequency-domain sequence X[k] back into its time-domain sequence x[n]. The IDFT is defined as:
+𝟏 𝑵
+𝒋𝟐𝝅𝒏𝒌
+𝒙[𝒏] = 𝑵 Σ𝒌=𝟎 𝑿[𝒌] ⋅ 𝒆 𝑵
+, 𝒏 = 𝟎, 𝟏, 𝟐, . . . , 𝑵 −1
+ The IDFT takes the frequency components X[k] and reconstructs the original sequence x[n].
+ The exponential factor 𝒆
+functions
+.
+Application
+ Spectrum (Analysis)
+ Filtering
+ Compression
+ Modulation
+ Convolution
+ Demodulation
+𝟐𝝅
+𝑵 𝒏𝒌 is the inverse of the DFT’s complex sinusoidal basis
+𝒋
+ Equalization
+ Restoration
+ Detection
+ Estimation
